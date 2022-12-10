@@ -6,8 +6,8 @@
   to = "/index.html"
   status = 200
   
-  [[plugins]]
-  package = "netlify-plugin-minify-html"
+[[plugins]]
+package = "netlify-plugin-minify-html"
 
   [plugins.inputs.minifierOptions]
     useShortDoctype = true
