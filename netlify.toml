@@ -5,3 +5,15 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  
+  [[plugins]]
+  package = "netlify-plugin-minify-html"
+
+  [plugins.inputs.minifierOptions]
+    useShortDoctype = true
+    removeComments = true
+    collapseWhitespace = true
+    minifyJS = true
+    minifyCSS = true
+    removeComments = false
+    collapseInlineTagWhitespace = false
