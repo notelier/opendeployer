@@ -15,5 +15,4 @@ package = "netlify-plugin-minify-html"
     collapseWhitespace = true
     minifyJS = true
     minifyCSS = true
-    removeComments = false
     collapseInlineTagWhitespace = false
